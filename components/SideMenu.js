@@ -98,7 +98,9 @@ const menus = [{
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
+        <div>
         {props.children}
+        </div>
       </main>
     </div>
   );

@@ -47,9 +47,9 @@ class ScoreCard extends React.Component {
 
     return (
       <Drawer active={'Score Card'}>
-        <Typography>
+      
           <ScoreList />
-        </Typography>
+      
       </Drawer>
     );
   }

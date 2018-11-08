@@ -47,9 +47,9 @@ class Index extends React.Component {
 
     return (
       <Drawer active={'Home'}>
-        <Typography>
+       
           <CategoryList />
-        </Typography>
+       
       </Drawer>
     );
   }
